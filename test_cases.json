@@ -1,0 +1,62 @@
+[
+  {
+    "id": "test_1_concepto_matematica",
+    "prompt": "Soy estudiante de 4° medio y no entiendo bien cómo funcionan los logaritmos. Me cuesta ver la conexión con las potencias. ¿Puedes explicarme de forma que entienda?",
+    "expected_behavior": "El profesor explica logaritmos conectando con potencias (conocimiento previo), usa ejemplos concretos, progresa de lo simple a lo complejo, incluye una pregunta de verificación.",
+    "type": "conceptual_explanation"
+  },
+  {
+    "id": "test_2_error_comun",
+    "prompt": "Resolví esta inecuación: -2x > 4, y obtuve x > -2. Pero mi profesor me dijo que está mal. ¿Dónde me equivoqué?",
+    "expected_behavior": "Identifica el error conceptual (no invertir el signo al dividir por número negativo), explica por qué ocurre, muestra el proceso correcto, ofrece estrategia para evitar error futuro.",
+    "type": "error_identification"
+  },
+  {
+    "id": "test_3_ejercicios_personalizados",
+    "prompt": "Necesito practicar problemas de probabilidad. Soy nivel intermedio, no principiante. Dame 3 ejercicios variados con dificultad creciente.",
+    "expected_behavior": "Genera 3 ejercicios de probabilidad de nivel intermedio (no triviales, no imposibles), variados en tipo (combinaciones, condicional, etc.), con progresión clara de dificultad.",
+    "type": "personalized_exercises"
+  },
+  {
+    "id": "test_4_lectura_critica",
+    "prompt": "¿Cómo debo enfrentar preguntas de Lectura Crítica sobre intención del autor? Siempre me confundo entre lo que dice explícitamente y lo que sugiere.",
+    "expected_behavior": "Enseña técnicas para distinguir hechos de interpretación, da ejemplos de intención explícita vs. implícita, proporciona estrategia de lectura paso a paso.",
+    "type": "reading_strategy"
+  },
+  {
+    "id": "test_5_plan_estudio",
+    "prompt": "Tengo 6 semanas para prepararme para PAES. Soy fuerte en Historia pero débil en Matemática. ¿Cómo debería distribuir mi tiempo de estudio?",
+    "expected_behavior": "Evalúa situación (6 semanas, fortaleza/debilidad), propone plan realista con cronograma, prioriza contenidos según dificultad y peso en prueba, sugiere técnicas específicas.",
+    "type": "study_strategy"
+  },
+  {
+    "id": "test_6_historia_contexto",
+    "prompt": "¿Por qué fue importante la Guerra del Pacífico para Chile? Mi libro la explica pero no entiendo el contexto político y económico.",
+    "expected_behavior": "Contextualiza históricamente (período, actores, motivaciones), conecta causas y consecuencias, explora perspectivas múltiples, vincula con presente si es pertinente.",
+    "type": "historical_explanation"
+  },
+  {
+    "id": "test_7_ciencias_naturales",
+    "prompt": "En biología no entiendo bien la diferencia entre mitosis y meiosis. Ambas son divisiones celulares pero me confundo.",
+    "expected_behavior": "Contrasta ambos procesos usando tabla o diagrama mental, explica el propósito de cada una, usa analogías para conceptos abstractos, aclara por qué es importante la diferencia.",
+    "type": "science_explanation"
+  },
+  {
+    "id": "test_8_correccion_respuesta",
+    "prompt": "Mi respuesta a este problema fue: 'La Revolución Francesa causó cambios directamente en América Latina'. Mi profesor marcó esto como incorrecto. ¿Por qué?",
+    "expected_behavior": "Identifica el error de comprensión, explica la relación real (influencia indirecta, inspiración vs. causa), muestra respuesta más precisa, enseña cómo argumentar históricamente.",
+    "type": "answer_correction"
+  },
+  {
+    "id": "test_9_ansiedad_prueba",
+    "prompt": "Tengo mucha ansiedad antes de las pruebas y me quedo en blanco. ¿Qué puedo hacer para controlarme?",
+    "expected_behavior": "Normaliza la ansiedad, ofrece técnicas concretas (respiración, gestión de tiempo, calentamiento mental), propone estrategias de examen (comenzar por lo fácil, etc.).",
+    "type": "exam_strategy"
+  },
+  {
+    "id": "test_10_vocabulario_contexto",
+    "prompt": "En una pregunta de Lectura Crítica encontré la palabra 'escrutinio' en contexto político. ¿Cómo puedo deducir su significado sin diccionario?",
+    "expected_behavior": "Enseña técnicas de deducción semántica (claves contextuales, palabras relacionadas, prefijos/sufijos), explica estrategia PAES para vocabulario, proporciona el significado correcto.",
+    "type": "vocabulary_strategy"
+  }
+]
